@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
 import time
-
+#É necessário instalar a biblioteca selenium
 navegador = webdriver.Firefox()
 navegador.maximize_window()
 navegador.get('https://store.steampowered.com')
